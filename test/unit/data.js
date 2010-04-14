@@ -60,7 +60,9 @@ test("jQuery.data", function() {
 });
 
 test(".data()", function() {
-	expect(1);
+	expect(2);
+
+	ok( jQuery().data() === undefined, "Check that .data() called on an empty set returns undefined" );
 
 	var div = jQuery("#foo");
 	div.data("test", "success");
@@ -68,9 +70,12 @@ test(".data()", function() {
 })
 
 test(".data(String) and .data(String, Object)", function() {
-	expect(23);
-	var div = jQuery("<div/>");
+	expect(25);
 
+	ok( jQuery().data("foo") === undefined, "Check that .data(String) called on an empty set returns undefined" );
+	ok( jQuery().data("foo", {"foo":"bar"}).data("foo") === undefined, "Check that .data(String, Object) called on an empty set is chainable" );
+
+	var div = jQuery("<div/>");
 	ok( div.data("test") === undefined, "Check for no data exists" );
 
 	div.data("test", "success");

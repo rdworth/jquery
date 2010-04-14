@@ -101,9 +101,12 @@ jQuery.extend({
 
 jQuery.fn.extend({
 	data: function( key, value ) {
-		if ( typeof key === "undefined" && this.length ) {
-			return jQuery.data( this[0] );
-
+		if ( typeof key === "undefined" ) {
+			if ( this.length ) {
+				return jQuery.data( this[0] );
+			} else {
+				return undefined;
+			}
 		} else if ( typeof key === "object" ) {
 			return this.each(function() {
 				jQuery.data( this, key );
