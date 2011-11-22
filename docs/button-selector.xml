@@ -1,0 +1,41 @@
+            <entry type='selector'   name="button" return="">
+                <sample>:button</sample>
+                 <signature><added>1.0</added> </signature>
+                <desc>Selects all button elements and elements of type button.</desc>
+                <longdesc></longdesc>
+                <example>
+                    <desc>Finds all button inputs.</desc>
+                    <code><![CDATA[
+
+    var input = $(":button").css({background:"yellow", border:"3px red solid"});
+    $("div").text("For this type jQuery found " + input.length + ".")
+            .css("color", "red");
+    $("form").submit(function () { return false; }); // so it won't submit
+
+]]></code>
+                    <css><![CDATA[
+  textarea { height:45px; }
+  ]]></css>
+                    <html><![CDATA[<form>
+    <input type="button" value="Input Button"/>
+    <input type="checkbox" />
+
+    <input type="file" />
+    <input type="hidden" />
+    <input type="image" />
+
+    <input type="password" />
+    <input type="radio" />
+    <input type="reset" />
+
+    <input type="submit" />
+    <input type="text" />
+    <select><option>Option<option/></select>
+
+    <textarea></textarea>
+    <button>Button</button>
+  </form>
+  <div>
+  </div>]]></html>
+                </example>
+            </entry>
