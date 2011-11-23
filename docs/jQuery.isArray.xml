@@ -8,11 +8,12 @@
   </signature>
   <desc>Determine whether the argument is an array.</desc>
   <longdesc>
-    <p><code>$.isArray()</code> returns a Boolean indicating whether the object is a JavaScript array (not an array-like object, such as a jQuery object).</p>
+    <p><code>$.isArray()</code> returns a Boolean indicating whether the argument is a JavaScript array. It will only return <code>true</code> for real arrays, not array-like objects (e.g. the jQuery object).</p>
+    <p>JavaScript's <code>typeof</code> operator returns "object" for arrays, and this can make it difficult to differentiate between regular objects (e.g. the <code>window</code> object) and arrays (e.g. created with an array literal, <code>[]</code>). This is why <code>$.isArray()</code> exists.</p>
   </longdesc>
   <example>
     <desc>Finds out if the parameter is an array.</desc>
-    <code><![CDATA[$("b").append( "" + $.isArray([]) );]]></code>
+    <code><![CDATA[$("b").text( $.isArray([]) );]]></code>
     <html><![CDATA[Is [] an Array? <b></b>]]></html>
   </example>
 </entry>
