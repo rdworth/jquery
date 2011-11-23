@@ -1,12 +1,13 @@
+<?xml version="1.0"?>
 <entry name="callbacks.disable" type="method" return="undefined">
   <signature>
     <added>1.7</added>
   </signature>
   <desc>Disable a callback list from doing anything more.</desc>
   <longdesc>
-<h2 id="example-1">Example</h2>
-<p>Using <code>callbacks.disable()</code> to disable further calls being made to a callback list:</p>
-<pre>
+    <h2 id="example-1">Example</h2>
+    <p>Using <code>callbacks.disable()</code> to disable further calls being made to a callback list:</p>
+    <pre>
 // a sample logging function to be added to a callbacks list
 var foo = function( value ){
     console.log( value );

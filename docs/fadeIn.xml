@@ -1,4 +1,5 @@
-<entry type='method' name="fadeIn" return="jQuery">
+<?xml version="1.0"?>
+<entry type="method" name="fadeIn" return="jQuery">
   <desc>Display the matched elements by fading them to opaque.</desc>
   <signature>
     <added>1.0</added>
@@ -36,17 +37,16 @@
       });
     });</pre>
     <p class="image four-across">
-      <img src="/images/0042_06_33.png" alt="" />
-      <img src="/images/0042_06_34.png" alt="" />
-      <img src="/images/0042_06_35.png" alt="" />
-      <img src="/images/0042_06_36.png" alt="" />
+      <img src="/images/0042_06_33.png" alt=""/>
+      <img src="/images/0042_06_34.png" alt=""/>
+      <img src="/images/0042_06_35.png" alt=""/>
+      <img src="/images/0042_06_36.png" alt=""/>
     </p>
-
     <h4 id="easing">Easing</h4>
     <p><strong>As of jQuery 1.4.3</strong>, an optional string naming an easing function may be used. Easing functions specify the speed at which the animation progresses at different points within the animation. The only easing implementations in the jQuery library are the default, called <code>swing</code>, and one that progresses at a constant pace, called <code>linear</code>. More easing functions are available with the use of plug-ins, most notably the <a href="http://jqueryui.com">jQuery UI suite</a>.</p>
     <h4 id="callback-function">Callback Function</h4>
     <p>If supplied, the callback is fired once the animation is complete. This can be useful for stringing different animations together in sequence. The callback is not sent any arguments, but <code>this</code> is set to the DOM element being animated. If multiple elements are animated, it is important to note that the callback is executed once per matched element, not once for the animation as a whole. </p>
-  <p><strong>As of jQuery 1.6</strong>, the <code><a href="http://api.jquery.com/promise/">.promise()</a></code> method can be used in conjunction with the <code><a href="http://api.jquery.com/deferred.done/">deferred.done()</a></code> method to execute a single callback for the animation as a whole when <em>all</em> matching elements have completed their animations ( See the <a href="http://api.jquery.com/promise/#example-1">example for .promise()</a> ).  </p>
+    <p><strong>As of jQuery 1.6</strong>, the <code><a href="http://api.jquery.com/promise/">.promise()</a></code> method can be used in conjunction with the <code><a href="http://api.jquery.com/deferred.done/">deferred.done()</a></code> method to execute a single callback for the animation as a whole when <em>all</em> matching elements have completed their animations ( See the <a href="http://api.jquery.com/promise/#example-1">example for .promise()</a> ).  </p>
   </longdesc>
   <example>
     <desc>Animates hidden divs to fade in one by one, completing each animation within 600 milliseconds.</desc>
@@ -68,10 +68,10 @@
     <div id="one"></div>
     <div id="two"></div>
     <div id="three"></div>]]></html>
-    </example>
-    <example>
-      <desc>Fades a red block in over the text. Once the animation is done, it quickly fades in more text on top.</desc>
-      <code><![CDATA[
+  </example>
+  <example>
+    <desc>Fades a red block in over the text. Once the animation is done, it quickly fades in more text on top.</desc>
+    <code><![CDATA[
         $("a").click(function () {
           $("div").fadeIn(3000, function () {
             $("span").fadeIn(100);
@@ -80,7 +80,7 @@
         }); 
 
       ]]></code>
-      <css><![CDATA[
+    <css><![CDATA[
       p { position:relative; width:400px; height:90px; }
       div { position:absolute; width:400px; height:65px; 
         font-size:36px; text-align:center; 
@@ -89,7 +89,7 @@
         top:0; left:0; display:none; }
         span { display:none; }
       ]]></css>
-      <html><![CDATA[<p>
+    <html><![CDATA[<p>
         Let it be known that the party of the first part
         and the party of the second part are henceforth
         and hereto directed to assess the allegations
@@ -97,5 +97,5 @@
         <div><span>CENSORED!</span></div>
 
       </p>]]></html>
-      </example>
+  </example>
 </entry>

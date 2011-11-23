@@ -1,15 +1,16 @@
-<entry type='property' name="event.data" return="Anything">
-    <signature>
-        <added>1.1</added>
-    </signature>
-    <desc> The optional data passed to jQuery.fn.bind when the current executing handler was bound.  </desc>
-    <longdesc>   </longdesc>
-    <example>
-        <desc>The description of the example.</desc>
-        <code><![CDATA[$("a").each(function(i) {
+<?xml version="1.0"?>
+<entry type="property" name="event.data" return="Anything">
+  <signature>
+    <added>1.1</added>
+  </signature>
+  <desc> The optional data passed to jQuery.fn.bind when the current executing handler was bound.  </desc>
+  <longdesc>   </longdesc>
+  <example>
+    <desc>The description of the example.</desc>
+    <code><![CDATA[$("a").each(function(i) {
   $(this).bind('click', {index:i}, function(e){
      alert('my index is ' + e.data.index);
   });
 });   ]]></code>
-    </example>
+  </example>
 </entry>

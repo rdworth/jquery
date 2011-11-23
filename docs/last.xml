@@ -1,9 +1,10 @@
-            <entry type='method' name="last" return="jQuery">
-              <signature>
-                <added>1.4</added>
-              </signature>
-              <desc>Reduce the set of matched elements to the final one in the set.</desc>
-              <longdesc>[<p>Given a jQuery object that represents a set of DOM elements, the <code>.last()</code> method constructs a new jQuery object from the last matching element.</p>
+<?xml version="1.0"?>
+<entry type="method" name="last" return="jQuery">
+  <signature>
+    <added>1.4</added>
+  </signature>
+  <desc>Reduce the set of matched elements to the final one in the set.</desc>
+  <longdesc>[<p>Given a jQuery object that represents a set of DOM elements, the <code>.last()</code> method constructs a new jQuery object from the last matching element.</p>
 <p>Consider a page with a simple list on it:</p>
 <pre>
 &lt;ul&gt;
@@ -17,10 +18,10 @@
 <p>We can apply this method to the set of list items:</p>
 <pre>$('li').last().css('background-color', 'red');</pre>
 <p>The result of this call is a red background for the final item.</p></longdesc>
-                <example>
-                    <desc>Highlight the last span in a paragraph.</desc>
-                    <css><![CDATA[.highlight{background-color: yellow}]]></css>
-                    <code><![CDATA[$("p span").last().addClass('highlight');]]></code>
-                    <html><![CDATA[<p><span>Look:</span> <span>This is some text in a paragraph.</span> <span>This is a note about it.</span></p>]]></html>
-                </example>
-            </entry>
+  <example>
+    <desc>Highlight the last span in a paragraph.</desc>
+    <css><![CDATA[.highlight{background-color: yellow}]]></css>
+    <code><![CDATA[$("p span").last().addClass('highlight');]]></code>
+    <html><![CDATA[<p><span>Look:</span> <span>This is some text in a paragraph.</span> <span>This is a note about it.</span></p>]]></html>
+  </example>
+</entry>

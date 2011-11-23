@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <entry name="callbacks.fire" type="method" return="undefined">
   <signature>
     <added>1.7</added>
@@ -7,9 +8,9 @@
   </signature>
   <desc>Call all of the callbacks with the given arguments</desc>
   <longdesc>
-<h2 id="example-1">Example</h2>
-<p>Using <code>callbacks.fire()</code> to invoke the callbacks in a list with any arguments that have been passed:</p>
-<pre>
+    <h2 id="example-1">Example</h2>
+    <p>Using <code>callbacks.fire()</code> to invoke the callbacks in a list with any arguments that have been passed:</p>
+    <pre>
 // a sample logging function to be added to a callbacks list
 var foo = function( value ){
     console.log( 'foo:' + value );

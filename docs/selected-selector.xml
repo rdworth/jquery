@@ -1,11 +1,16 @@
-            <entry type='selector'  name="selected" return="">
-                <sample>:selected</sample>
-                 <signature><added>1.0</added> </signature>
-                <desc>Selects all elements that are selected.</desc>
-                <longdesc><p>The <code>:selected</code> selector works for <code>&lt;option&gt;</code> elements. It does not work for checkboxes or radio inputs; use <code>:checked</code> for them.</p></longdesc>
-                <example>
-                    <desc>Attaches a change event to the select that gets the text for each selected option and writes them in the div.  It then triggers the event for the initial text draw.</desc>
-                    <code><![CDATA[
+<?xml version="1.0"?>
+<entry type="selector" name="selected" return="">
+  <sample>:selected</sample>
+  <signature>
+    <added>1.0</added>
+  </signature>
+  <desc>Selects all elements that are selected.</desc>
+  <longdesc>
+    <p>The <code>:selected</code> selector works for <code>&lt;option&gt;</code> elements. It does not work for checkboxes or radio inputs; use <code>:checked</code> for them.</p>
+  </longdesc>
+  <example>
+    <desc>Attaches a change event to the select that gets the text for each selected option and writes them in the div.  It then triggers the event for the initial text draw.</desc>
+    <code><![CDATA[
 
     $("select").change(function () {
           var str = "";
@@ -16,10 +21,10 @@
         })
         .trigger('change');
 ]]></code>
-                    <css><![CDATA[
+    <css><![CDATA[
   div { color:red; }
   ]]></css>
-                    <html><![CDATA[<select name="garden" multiple="multiple">
+    <html><![CDATA[<select name="garden" multiple="multiple">
 
     <option>Flowers</option>
     <option selected="selected">Shrubs</option>
@@ -30,5 +35,5 @@
     <option>Dirt</option>
   </select>
   <div></div>]]></html>
-                </example>
-            </entry>
+  </example>
+</entry>

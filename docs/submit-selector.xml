@@ -1,11 +1,16 @@
-            <entry type='selector'   name="submit" return="">
-                <sample>:submit</sample>
-                 <signature><added>1.0</added> </signature>
-                <desc>Selects all elements of type submit.</desc>
-                <longdesc><p>The <code>:submit</code> selector typically applies to button or input elements. Note that some browsers treat <code>&lt;button&gt;</code> element as <code>type="default"</code> implicitly while others (such as Internet Explorer) do not.  </p></longdesc>
-                <example>
-                    <desc>Finds all submit elements that are descendants of a td element.</desc>
-                    <code><![CDATA[
+<?xml version="1.0"?>
+<entry type="selector" name="submit" return="">
+  <sample>:submit</sample>
+  <signature>
+    <added>1.0</added>
+  </signature>
+  <desc>Selects all elements of type submit.</desc>
+  <longdesc>
+    <p>The <code>:submit</code> selector typically applies to button or input elements. Note that some browsers treat <code>&lt;button&gt;</code> element as <code>type="default"</code> implicitly while others (such as Internet Explorer) do not.  </p>
+  </longdesc>
+  <example>
+    <desc>Finds all submit elements that are descendants of a td element.</desc>
+    <code><![CDATA[
     var submitEl = $("td :submit")
       .parent('td')
       .css({background:"yellow", border:"3px red solid"})
@@ -25,10 +30,10 @@
     
 
 ]]></code>
-                    <css><![CDATA[
+    <css><![CDATA[
   textarea { height:45px; }
   ]]></css>
-                    <html><![CDATA[
+    <html><![CDATA[
 <table>
 <form>
 <table id="exampleTable" border="1" cellpadding="10" align="center">
@@ -129,5 +134,5 @@
 </form>
 <div id="result"></div>
 ]]></html>
-    </example>
+  </example>
 </entry>

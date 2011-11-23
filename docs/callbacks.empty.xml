@@ -1,12 +1,13 @@
+<?xml version="1.0"?>
 <entry name="callbacks.empty" type="method" return="undefined">
   <signature>
     <added>1.7</added>
   </signature>
   <desc>Remove all of the callbacks from a list.</desc>
   <longdesc>
-<h2 id="example-1">Example</h2>
-<p>Using <code>callbacks.empty()</code> to empty a list of callbacks:</p>
-<pre>
+    <h2 id="example-1">Example</h2>
+    <p>Using <code>callbacks.empty()</code> to empty a list of callbacks:</p>
+    <pre>
 // a sample logging function to be added to a callbacks list
 var foo = function( value1, value2 ){
     console.log( 'foo:' + value1 + ',' + value2 );

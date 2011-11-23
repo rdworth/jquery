@@ -1,11 +1,16 @@
-            <entry type='selector'   name="reset" return="">
-                <sample>:reset</sample>
-                 <signature><added>1.0</added> </signature>
-                <desc>Selects all elements of type reset.</desc>
-                <longdesc><p><code>:reset</code> is equivalent to <code>[type="reset"]</code></p></longdesc>
-                <example>
-                    <desc>Finds all reset inputs.</desc>
-                    <code><![CDATA[
+<?xml version="1.0"?>
+<entry type="selector" name="reset" return="">
+  <sample>:reset</sample>
+  <signature>
+    <added>1.0</added>
+  </signature>
+  <desc>Selects all elements of type reset.</desc>
+  <longdesc>
+    <p><code>:reset</code> is equivalent to <code>[type="reset"]</code></p>
+  </longdesc>
+  <example>
+    <desc>Finds all reset inputs.</desc>
+    <code><![CDATA[
 
     var input = $("input:reset").css({background:"yellow", border:"3px red solid"});
     $("div").text("For this type jQuery found " + input.length + ".")
@@ -13,10 +18,10 @@
     $("form").submit(function () { return false; }); // so it won't submit
 
 ]]></code>
-                    <css><![CDATA[
+    <css><![CDATA[
   textarea { height:45px; }
   ]]></css>
-                    <html><![CDATA[<form>
+    <html><![CDATA[<form>
     <input type="button" value="Input Button"/>
     <input type="checkbox" />
 
@@ -37,5 +42,5 @@
   </form>
   <div>
   </div>]]></html>
-                </example>
-            </entry>
+  </example>
+</entry>

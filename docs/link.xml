@@ -1,7 +1,8 @@
-<entry type='method' name="link" return="jQuery" plugin="jQuery Datalink">
-<download>
-<p>This documentation topic concerns the <em> jQuery Datalink</em> plugin (jquery-datalink), which can be downloaded from: <a href="http://github.com/jquery/jquery-datalink">http://github.com/jquery/jquery-datalink</a>.</p>
-</download>
+<?xml version="1.0"?>
+<entry type="method" name="link" return="jQuery" plugin="jQuery Datalink">
+  <download>
+    <p>This documentation topic concerns the <em> jQuery Datalink</em> plugin (jquery-datalink), which can be downloaded from: <a href="http://github.com/jquery/jquery-datalink">http://github.com/jquery/jquery-datalink</a>.</p>
+  </download>
   <signature>
     <added>1.4.3</added>
     <argument name="target" type="Element, Object">
@@ -12,8 +13,7 @@
     </argument>
   </signature>
   <desc>Link changes to the matched elements to an object.</desc>
-  <longdesc><p>The <code>.link()</code> method links form fields to an object. Any changes to the form field values are automatically represented in the object. For example, when an input element whose name attribute is "firstName" is changed, the firstName property of the target is set to the new value:</p>
-<pre>
+  <longdesc><p>The <code>.link()</code> method links form fields to an object. Any changes to the form field values are automatically represented in the object. For example, when an input element whose name attribute is "firstName" is changed, the firstName property of the target is set to the new value:</p><pre>
 var person = {};
 $("form").link(person);
 $("[name=firstName]").val("NewValue"); // Set firstName to a value.
@@ -21,34 +21,24 @@ person.firstName; // NewValue
 
 // User types a value into the form field.
 person.firstName; // firstName now contains the user-ented value.
-</pre>
-
-<p>By default, links are two-way, meaning changes to the object are also automatically changed in the corresponding form field. For example, if the firstName of the target is changed using the <code>.setField()</code> method, the value of input element named "firstName" is set to the new value.</p>
-<pre>
+</pre><p>By default, links are two-way, meaning changes to the object are also automatically changed in the corresponding form field. For example, if the firstName of the target is changed using the <code>.setField()</code> method, the value of input element named "firstName" is set to the new value.</p><pre>
 // Set the object property.
 $(person).setField("firstName", "NewValue");
 // The change is automatically pushed to the input element.
 $("[name=firstName]").val(); // The value is now "NewValue"
-</pre>
-<h4>Customizing the Mapping Between Elements and Objects</h4>
-<p>
+</pre><h4>Customizing the Mapping Between Elements and Objects</h4><p>
 By default, all change events that occur for (or bubble up to) the selected element or elements are processed, and the changes are made to the property whose name corresponds to the name of the element that changed. By providing a mapping object, you can explicitly choose which elements participate in linking behavior, and what target properties they set.
-</p>
-<pre>
+</p><pre>
 var person = {};
 $("form").link(person, {
     firstName: "first-name",
     lastName: "last-name"
 });
-</pre>
-<p>
+</pre><p>
 The preceeding example shows how to link only the input element named "first-name" to person.firstName, and the input element named "last-name" to person.lastName. Changes in other input elements and changes to other fields of the person object are ignored (by this link).
-</p>
-<h4>Specifying One-Way Linking</h4>
-<p>
+</p><h4>Specifying One-Way Linking</h4><p>
 You can disable two-way linking for individual fields with the <code>twoWay</code> field in the custom mapping. The following example shows how to create a link from the form field named "firstName" to the firstName property of a person object, but not the other way around.
-</p>
-<pre>
+</p><pre>
 var person = {};
 $("form").link(person, {
     firstName: {
@@ -57,12 +47,9 @@ $("form").link(person, {
 });
 $(person).setField("firstName", "NewValue");
 $("[name=firstName]").val(); // unchanged
-</pre>
-<h4>Converting Values</h4>
-<p>
+</pre><h4>Converting Values</h4><p>
 By default, any changed value is assigned as-is to the target object. Often times, it is necessary to modify the value, as converting null to "None", formating or parsing a date, or parsing a string into a number. To perform these conversions, you can specify a <code>convert</code> field in the mapping that includes a conversion function, as shown in the following example:
-</p>
-<pre>
+</p><pre>
 var person = {};
 $("[name=age]")
   .link(person, {
@@ -129,7 +116,7 @@ $("[name=age]").link(person, {
         convert: function(value, source, target) {
             var age = Math.round( parseFloat( value ) );
             target.age = age;
-            target.canVote = age >= 18;
+            target.canVote = age &gt;= 18;
         }
     }
 });
@@ -156,7 +143,7 @@ $(person).setField("age", 21);
 $("#ageDiv").height(); // 42
 </pre>
 </longdesc>
-<example>
+  <example>
     <desc>Link all input elements of a form to an object.</desc>
     <js src="http://code.jquery.com/jquery-latest.min.js"/>
     <js src="http://github.com/jquery/jquery-datalink/raw/master/jquery.datalink.js"/>
@@ -182,7 +169,7 @@ $("#ageDiv").height(); // 42
         }
     });
 ]]></code>
-<html><![CDATA[
+    <html><![CDATA[
 <form>
     <div>
         First Name:

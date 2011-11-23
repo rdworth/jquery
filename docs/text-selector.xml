@@ -1,13 +1,17 @@
-            <entry type='selector'  name="text" return="" >
-                <sample>:text</sample>
-                 <signature><added>1.0</added> </signature>
-                <desc>Selects all elements of type text.</desc>
-                <longdesc><p><code>$(':text')</code> is equivalent to <code>$('[type=text]')</code> and thus selects all <code>&lt;input type="text"&gt;</code> elements. As with other pseudo-class selectors (those that begin with a ":") it is recommended to precede it with a tag name or some other selector; otherwise, the universal selector ("*") is implied. In other words, the bare <code>$(':text')</code> is equivalent to <code>$('*:text')</code>, so <code>$('input:text')</code> should be used instead. </p>
-<p><strong>Note:</strong> As of jQuery 1.5.2, <code>:text</code> selects <code>input</code> elements that have no specified <code>type</code> attribute (in which case <code>type="text"</code> is implied).  </p>
-</longdesc>
-                <example>
-                    <desc>Finds all text inputs.</desc>
-                    <code><![CDATA[
+<?xml version="1.0"?>
+<entry type="selector" name="text" return="">
+  <sample>:text</sample>
+  <signature>
+    <added>1.0</added>
+  </signature>
+  <desc>Selects all elements of type text.</desc>
+  <longdesc>
+    <p><code>$(':text')</code> is equivalent to <code>$('[type=text]')</code> and thus selects all <code>&lt;input type="text"&gt;</code> elements. As with other pseudo-class selectors (those that begin with a ":") it is recommended to precede it with a tag name or some other selector; otherwise, the universal selector ("*") is implied. In other words, the bare <code>$(':text')</code> is equivalent to <code>$('*:text')</code>, so <code>$('input:text')</code> should be used instead. </p>
+    <p><strong>Note:</strong> As of jQuery 1.5.2, <code>:text</code> selects <code>input</code> elements that have no specified <code>type</code> attribute (in which case <code>type="text"</code> is implied).  </p>
+  </longdesc>
+  <example>
+    <desc>Finds all text inputs.</desc>
+    <code><![CDATA[
 
     var input = $("form input:text").css({background:"yellow", border:"3px red solid"});
     $("div").text("For this type jQuery found " + input.length + ".")
@@ -15,10 +19,10 @@
     $("form").submit(function () { return false; }); // so it won't submit
 
 ]]></code>
-                    <css><![CDATA[
+    <css><![CDATA[
   textarea { height:25px; }
   ]]></css>
-                    <html><![CDATA[<form>
+    <html><![CDATA[<form>
     <input type="button" value="Input Button"/>
     <input type="checkbox" />
 
@@ -39,5 +43,5 @@
   </form>
   <div>
   </div>]]></html>
-                </example>
-            </entry>
+  </example>
+</entry>

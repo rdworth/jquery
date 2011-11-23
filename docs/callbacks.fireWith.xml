@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <entry name="callbacks.fireWith" type="method" return="undefined">
   <signature>
     <added>1.7</added>
@@ -10,9 +11,9 @@
   </signature>
   <desc>Call all callbacks in a list with the given context and arguments.</desc>
   <longdesc>
-<h2 id="example-1">Example</h2>
-<p>Using <code>callbacks.fireWith()</code> to fire a list of callbacks with a specific context and an array of arguments:</p>
-<pre>
+    <h2 id="example-1">Example</h2>
+    <p>Using <code>callbacks.fireWith()</code> to fire a list of callbacks with a specific context and an array of arguments:</p>
+    <pre>
 // a sample logging function to be added to a callbacks list
 var log = function( value1, value2 ){
     console.log( 'Received:' + value1 + ',' + value2 );
