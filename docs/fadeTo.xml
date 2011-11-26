@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="fadeTo" return="jQuery">
-  <title>.fadeTo()</title
+  <title>.fadeTo()</title>
   <desc>Adjust the opacity of the matched elements.</desc>
   <signature>
     <added>1.0</added>
