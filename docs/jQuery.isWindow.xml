@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.isWindow" return="boolean">
-  <title>jQuery.isWindow()</title
+  <title>jQuery.isWindow()</title>
   <signature>
     <added>1.4.3</added>
     <argument name="obj" type="Object">
