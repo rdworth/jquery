@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="prevAll" return="jQuery">
+  <title>.prevAll()</title>
   <signature>
     <added>1.2</added>
     <argument name="selector" optional="true" type="Selector">

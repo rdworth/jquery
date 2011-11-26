@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="contains" return="">
+  <title>:contains() Selector</title>
   <sample>:contains(text)</sample>
   <signature>
     <added>1.1.4</added>

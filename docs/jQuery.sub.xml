@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.sub" return="jQuery">
+  <title>jQuery.sub()</title>
   <signature>
     <added>1.5</added>
   </signature>

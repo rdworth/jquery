@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.merge" return="Array">
+  <title>jQuery.merge()</title>
   <desc>Merge the contents of two arrays together into the first array. </desc>
   <signature>
     <added>1.0</added>

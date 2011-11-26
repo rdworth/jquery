@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.noConflict" return="Object">
+  <title>jQuery.noConflict()</title>
   <signature>
     <added>1.0</added>
     <argument name="removeAll" type="Boolean" optional="true">

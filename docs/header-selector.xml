@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="header" return="">
+  <title>:header Selector</title>
   <sample>:header</sample>
   <signature>
     <added>1.2</added>

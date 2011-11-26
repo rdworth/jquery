@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="deferred.notify" type="method" return="Deferred">
+  <title>deferred.notify()</title>
   <signature>
     <added>1.7</added>
     <argument name="args" type="Object">

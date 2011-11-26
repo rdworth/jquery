@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="width" return="Integer">
+    <title>.width()</title
     <signature>
       <added>1.0</added>
     </signature>
@@ -50,6 +51,7 @@ $(document).width(); // returns width of HTML document</pre>
     </example>
   </entry>
   <entry type="method" name="width" return="jQuery">
+    <title>.width()</title
     <signature>
       <added>1.0</added>
       <argument name="value" type="String, Number">

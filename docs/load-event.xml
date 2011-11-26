@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="load" return="jQuery">
+    <title>.load()</title>
     <desc>Bind an event handler to the "load" JavaScript event.</desc>
     <signature>
       <added>1.0</added>

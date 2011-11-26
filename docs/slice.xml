@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="slice" return="jQuery">
+  <title>.slice()</title>
   <signature>
     <added>1.1.4</added>
     <argument name="start" type="Integer">

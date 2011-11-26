@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="animate" return="jQuery">
+	<title>.animate()</title>
   <desc>Perform a custom animation of a set of CSS properties.</desc>
   <signature>
     <added>1.0</added>

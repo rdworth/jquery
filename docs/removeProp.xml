@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="removeProp" return="jQuery">
+    <title>.removeProp()</title>
     <signature>
       <added>1.6</added>
       <argument name="propertyName" type="String">

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="jQuery" return="jQuery">
+    <title>jQuery()</title>
     <signature>
       <added>1.0</added>
       <argument name="selector" type="selector">
@@ -125,6 +126,7 @@ $foo.triggerHandler('eventName'); // also logs 'eventName was called'
     </example>
   </entry>
   <entry type="method" name="jQuery" return="jQuery">
+    <title>jQuery()</title>
     <signature>
       <added>1.0</added>
       <argument name="html" type="String">
@@ -197,6 +199,7 @@ $('&lt;input type="text" /&gt;').attr({
     </example>
   </entry>
   <entry type="method" name="jQuery" return="jQuery">
+    <title>jQuery()</title>
     <signature>
       <added>1.0</added>
       <argument name="callback" type="Function">

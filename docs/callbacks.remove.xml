@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="callbacks.remove" type="method" return="undefined">
+  <title>callbacks.remove()</title>
   <signature>
     <added>1.7</added>
     <argument name="callbacks" type="Function">

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="callbacks.disable" type="method" return="undefined">
+  <title>callbacks.disable()</title>
   <signature>
     <added>1.7</added>
   </signature>

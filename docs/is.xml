@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="is" return="Boolean">
+  <title>.is()</title>
   <signature>
     <added>1.0</added>
     <argument name="selector" type="Selector">

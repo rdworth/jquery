@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="button" return="">
+  <title>:button Selector</title>
   <sample>:button</sample>
   <signature>
     <added>1.0</added>

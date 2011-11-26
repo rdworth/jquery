@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="trigger" return="jQuery">
+  <title>.trigger()</title>
   <desc>Execute all handlers and behaviors attached to the matched elements for the given event type.</desc>
   <signature>
     <added>1.0</added>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="removeAttr" return="jQuery">
+  <title>.removeAttr()</title>
   <signature>
     <added>1.0</added>
     <argument name="attributeName" type="String">

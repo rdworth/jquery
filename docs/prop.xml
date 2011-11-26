@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="prop" return="String">
+    <title>.prop()</title>
     <signature>
       <added>1.6</added>
       <argument name="propertyName" type="String">
@@ -91,6 +92,7 @@ $("input").change(function() {
     </example>
   </entry>
   <entry type="method" name="prop" return="jQuery">
+    <title>.prop()</title>
     <signature>
       <added>1.6</added>
       <argument name="propertyName" type="String">

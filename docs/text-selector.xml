@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="text" return="">
+  <title>:text Selector</title>
   <sample>:text</sample>
   <signature>
     <added>1.0</added>

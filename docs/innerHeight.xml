@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="innerHeight" return="Integer">
+  <title>.innerHeight()</title>
   <signature>
     <added>1.2.6</added>
   </signature>

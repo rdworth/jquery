@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.map" return="Array">
+  <title>jQuery.map()</title>
   <signature>
     <added>1.0</added>
     <argument name="array" type="Array">

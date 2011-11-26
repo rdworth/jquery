@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="size" return="Number">
+  <title>.size()</title>
   <signature>
     <added>1.0</added>
   </signature>

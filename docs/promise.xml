@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="promise" type="method" return="Promise">
+  <title>.promise()</title>
   <signature>
     <added>1.6</added>
     <argument name="type" type="String" optional="true" default="fx">

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="hover" return="jQuery">
+    <title>.hover()</title>
     <desc>Bind two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.</desc>
     <signature>
       <added>1.0</added>
@@ -65,6 +66,7 @@ $("li.fade").hover(function(){$(this).fadeOut(100);$(this).fadeIn(500);});
     </example>
   </entry>
   <entry type="method" name="hover" return="jQuery">
+    <title>.hover()</title>
     <desc>Bind a single handler to the matched elements, to be executed when the mouse pointer enters or leaves the elements.</desc>
     <signature>
       <added>1.4</added>

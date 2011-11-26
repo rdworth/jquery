@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="visible" return="">
+  <title>:visible Selector</title>
   <sample>:visible</sample>
   <signature>
     <added>1.0</added>

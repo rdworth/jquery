@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="focusin" return="jQuery">
+  <title>.focusin()</title>
   <desc>Bind an event handler to the "focusin" event.</desc>
   <signature>
     <added>1.4</added>

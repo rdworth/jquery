@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="radio" return="">
+  <title>:radio Selector</title>
   <sample>:radio</sample>
   <signature>
     <added>1.0</added>

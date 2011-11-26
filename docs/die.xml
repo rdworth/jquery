@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="die" return="jQuery">
+    <title>.die()</title>
     <deprecated>1.7</deprecated>
     <desc>Remove all event handlers previously attached using <code>.live()</code> from the elements.</desc>
     <signature>
@@ -14,6 +15,7 @@ See the discussions of <code>.live()</code> and <code>.unbind()</code> for furth
     </longdesc>
   </entry>
   <entry type="method" name="die" return="jQuery">
+    <title>.die()</title>
     <deprecated>1.7</deprecated>
     <desc>Remove an event handler previously attached using <code>.live()</code> from the elements.</desc>
     <signature>

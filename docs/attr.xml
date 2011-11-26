@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="attr" return="String">
+    <title>.attr()</title>
     <signature>
       <added>1.0</added>
       <argument name="attributeName" type="String">
@@ -40,6 +41,7 @@ var title = $("em").attr("title");
     </example>
   </entry>
   <entry type="method" name="attr" return="jQuery">
+    <title>.attr()</title>
     <signature>
       <added>1.0</added>
       <argument name="attributeName" type="String">

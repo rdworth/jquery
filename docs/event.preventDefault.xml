@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="event.preventDefault" type="method" return="undefined">
+  <title>event.preventDefault()</title>
   <signature>
     <added>1.0</added>
   </signature>

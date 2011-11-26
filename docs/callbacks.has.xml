@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="callbacks.has" type="method" return="Boolean">
+  <title>callbacks.has()</title>
   <signature>
     <added>1.7</added>
     <argument name="callback" type="Function">

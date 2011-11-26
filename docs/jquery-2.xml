@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="property" name="jquery" return="String">
+  <title>.jquery</title>
   <signature>
     <added>1.0</added>
   </signature>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="last" return="">
+  <title>:last Selector</title>
   <sample>:last</sample>
   <signature>
     <added>1.0</added>

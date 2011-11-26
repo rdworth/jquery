@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="property" name="jQuery.boxModel" return="Boolean">
+  <title>jQuery.boxModel</title>
   <signature>
     <added>1.0</added>
   </signature>

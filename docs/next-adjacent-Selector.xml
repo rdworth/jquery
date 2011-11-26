@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="next adjacent" return="">
+  <title>Next Adjacent Selector ("prev + next")</title>
   <sample>prev + next</sample>
   <signature>
     <added>1.0</added>

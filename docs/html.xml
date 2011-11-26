@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="html" return="String">
+    <title>.html()</title>
     <signature>
       <added>1.0</added>
     </signature>
@@ -45,6 +46,7 @@
     </example>
   </entry>
   <entry type="method" name="html" return="jQuery">
+    <title>.html()</title>
     <signature>
       <added>1.0</added>
       <argument name="htmlString" type="String">

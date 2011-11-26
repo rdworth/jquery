@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="appendTo" return="jQuery">
+	<title>.appendTo()</title>
   <signature>
     <added>1.0</added>
     <argument name="target" type="Selector, Element, jQuery">

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.ajax" return="jqXHR">
+  <title>jQuery.ajax()</title>
   <signature>
     <added>1.5</added>
     <argument name="url" type="String">

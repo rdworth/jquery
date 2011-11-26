@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="dequeue" return="jQuery">
+  <title>.dequeue()</title>
   <signature>
     <added>1.2</added>
     <argument name="queueName" optional="true" type="String">

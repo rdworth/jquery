@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="property" name="event.data" return="Anything">
+  <title>event.data</title>
   <signature>
     <added>1.1</added>
   </signature>

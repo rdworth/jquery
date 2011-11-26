@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="ajaxError" return="jQuery">
+	<title>.ajaxError()</title>
   <signature>
     <added>1.0</added>
     <argument name="handler(event, jqXHR, ajaxSettings, thrownError)" type="Function">

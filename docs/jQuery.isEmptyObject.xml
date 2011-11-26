@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.isEmptyObject" return="Boolean">
+  <title>jQuery.isEmptyObject()</title>
   <signature>
     <added>1.4</added>
     <argument name="object" type="Object">

@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="val" return="String, Number, Array">
+    <title>.val()</title>
     <signature>
       <added>1.0</added>
     </signature>
@@ -74,6 +75,7 @@ $.valHooks.textarea = {
     </example>
   </entry>
   <entry type="method" name="val" return="jQuery">
+    <title>.val()</title>
     <signature>
       <added>1.0</added>
       <argument name="value" type="String">

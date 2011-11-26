@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="property" name="event.pageY" return="Number">
+  <title>event.pageY</title>
   <signature>
     <added>1.0.4</added>
   </signature>

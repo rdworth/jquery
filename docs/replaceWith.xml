@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="replaceWith" return="jQuery">
+  <title>.replaceWith()</title>
   <signature>
     <added>1.2</added>
     <argument name="newContent" type="String, Element, jQuery">

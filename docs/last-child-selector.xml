@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="last-child" return="">
+  <title>:last-child Selector</title>
   <sample>:last-child</sample>
   <signature>
     <added>1.1.4</added>

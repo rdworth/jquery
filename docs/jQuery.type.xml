@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.type" return="String">
+  <title>jQuery.type()</title>
   <signature>
     <added>1.4.3</added>
     <argument name="obj" type="Object">

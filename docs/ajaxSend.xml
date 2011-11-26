@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="ajaxSend" return="jQuery">
+	<title>.ajaxSend()</title>
   <signature>
     <added>1.0</added>
     <argument name="handler(event, jqXHR, ajaxOptions)" type="Function">

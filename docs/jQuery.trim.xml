@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.trim" return="String">
+  <title>jQuery.trim()</title>
   <signature>
     <added>1.0</added>
     <argument name="str" type="String">

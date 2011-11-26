@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="image" return="">
+  <title>:image Selector</title>
   <sample>:image</sample>
   <signature>
     <added>1.0</added>

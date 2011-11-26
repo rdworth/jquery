@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="reset" return="">
+  <title>:reset Selector</title>
   <sample>:reset</sample>
   <signature>
     <added>1.0</added>

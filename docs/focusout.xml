@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="focusout" return="jQuery">
+  <title>.focusout()</title>
   <desc>Bind an event handler to the "focusout" JavaScript event.</desc>
   <signature>
     <added>1.4</added>

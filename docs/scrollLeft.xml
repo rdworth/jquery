@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="scrollLeft" return="Integer">
+    <title>.scrollLeft()</title>
     <signature>
       <added>1.2.6</added>
     </signature>
@@ -24,6 +25,7 @@
     </example>
   </entry>
   <entry type="method" name="scrollLeft" return="jQuery">
+    <title>.scrollLeft()</title>
     <signature>
       <added>1.2.6</added>
       <argument name="value" type="Number">

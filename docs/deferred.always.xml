@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="deferred.always" type="method" return="Deferred">
+  <title>deferred.always()</title>
   <signature>
     <added>1.6</added>
     <argument name="alwaysCallbacks" type="Function">

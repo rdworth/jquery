@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="descendant" return="">
+  <title>Descendant Selector ("ancestor descendant")</title>
   <sample>ancestor descendant</sample>
   <signature>
     <added>1.0</added>

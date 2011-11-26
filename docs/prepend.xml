@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="prepend" return="jQuery">
+  <title>.prepend()</title>
   <signature>
     <added>1.0</added>
     <argument name="content" type="String, Element, jQuery">

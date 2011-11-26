@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="andSelf" return="jQuery">
+	<title>.andSelf()</title>
   <signature>
     <added>1.2</added>
   </signature>

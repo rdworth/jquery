@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <entries>
   <entry type="method" name="scrollTop" return="Integer">
+    <title>.scrollTop()</title>
     <signature>
       <added>1.2.6</added>
     </signature>
@@ -21,6 +22,7 @@ $("p:last").text( "scrollTop:" + p.scrollTop() );
     </example>
   </entry>
   <entry type="method" name="scrollTop" return="jQuery">
+    <title>.scrollTop()</title>
     <signature>
       <added>1.2.6</added>
       <argument name="value" type="Number">

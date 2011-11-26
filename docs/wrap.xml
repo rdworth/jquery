@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="wrap" return="jQuery">
+  <title>.wrap()</title>
   <signature>
     <added>1.0</added>
     <argument name="wrappingElement" type="String, Selector, Element, jQuery">

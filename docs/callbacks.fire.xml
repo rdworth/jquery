@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="callbacks.fire" type="method" return="undefined">
+  <title>callbacks.fire()</title>
   <signature>
     <added>1.7</added>
     <argument name="arguments" type="">

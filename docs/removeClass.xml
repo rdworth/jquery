@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="removeClass" return="jQuery">
+  <title>.removeClass()</title>
   <signature>
     <added>1.0</added>
     <argument name="className" optional="true" type="String">

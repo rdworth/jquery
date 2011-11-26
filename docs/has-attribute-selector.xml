@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="attributeHas" return="">
+  <title>Has Attribute Selector [name]</title>
   <sample>[attribute]</sample>
   <signature>
     <added>1.0</added>

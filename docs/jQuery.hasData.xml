@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.hasData" return="Boolean">
+  <title>jQuery.hasData()</title>
   <signature>
     <added>1.5</added>
     <argument name="element" type="Element">

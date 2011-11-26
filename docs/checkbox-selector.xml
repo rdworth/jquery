@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="checkbox" return="">
+  <title>:checkbox Selector</title>
   <sample>:checkbox</sample>
   <signature>
     <added>1.0</added>

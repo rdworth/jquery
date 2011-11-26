@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="property" name="event.delegateTarget" return="Element">
+  <title>event.delegateTarget</title>
   <signature>
     <added>1.7</added>
   </signature>

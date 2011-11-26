@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entries>
+  <title>.css()</title>
   <entry type="method" name="css" return="String">
     <signature>
       <added>1.0</added>

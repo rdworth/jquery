@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="deferred.resolveWith" type="method" return="Deferred">
+  <title>deferred.resolveWith()</title>
   <signature>
     <added>1.5</added>
     <argument name="context" type="Object">

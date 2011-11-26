@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="deferred.state" type="method" return="String">
+  <title>deferred.state()</title>
   <signature>
     <added>1.7</added>
   </signature>

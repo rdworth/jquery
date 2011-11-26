@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="jQuery.when" return="Promise">
+  <title>jQuery.when()</title>
   <signature>
     <added>1.5</added>
     <argument name="deferreds" type="Deferred">

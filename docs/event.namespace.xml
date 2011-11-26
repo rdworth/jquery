@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="property" name="event.namespace" return="String">
+  <title>event.namespace</title>
   <signature>
     <added>1.4.3</added>
   </signature>

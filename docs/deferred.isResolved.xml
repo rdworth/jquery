@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry name="deferred.isResolved" type="method" return="Boolean">
+  <title>deferred.isResolved()</title>
   <signature>
     <added>1.5</added>
     <deprecated>1.7</deprecated>

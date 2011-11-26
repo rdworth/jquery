@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="index" return="Number">
+  <title>.index()</title>
   <signature>
     <added>1.4</added>
   </signature>

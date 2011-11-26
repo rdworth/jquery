@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="enabled" return="">
+  <title>:enabled Selector</title>
   <sample>:enabled</sample>
   <signature>
     <added>1.0</added>

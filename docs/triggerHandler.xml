@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="triggerHandler" return="Object">
+  <title>.triggerHandler()</title>
   <desc>Execute all handlers attached to an element for an event.</desc>
   <signature>
     <added>1.2</added>

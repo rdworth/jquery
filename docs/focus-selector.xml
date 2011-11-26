@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="focus" return="">
-  <sample>:focus</sample>
+  <title>:focus selector</title>
   <signature>
     <added>1.6</added>
   </signature>

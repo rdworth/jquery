@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="append" return="jQuery">
+	<title>.append()</title>
   <signature>
     <added>1.0</added>
     <argument name="content" type="String, Element, jQuery">

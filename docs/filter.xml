@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="filter" return="jQuery">
+  <title>.filter()</title>
   <signature>
     <added>1.0</added>
     <argument name="selector" type="Selector">

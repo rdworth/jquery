@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="parent" return="">
+  <title>:parent Selector</title>
   <sample>:parent</sample>
   <signature>
     <added>1.0</added>

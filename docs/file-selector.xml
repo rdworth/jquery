@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <entry type="selector" name="file" return="">
+  <title>:file Selector</title>
   <sample>:file</sample>
   <signature>
     <added>1.0</added>
