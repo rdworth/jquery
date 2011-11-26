@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <entry type="method" name="fadeOut" return="jQuery">
-  <title>.fadeOut()</title
+  <title>.fadeOut()</title>
   <desc>Hide the matched elements by fading them to transparent.</desc>
   <signature>
     <added>1.0</added>
