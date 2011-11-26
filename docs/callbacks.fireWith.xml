@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <entry name="callbacks.fireWith" type="method" return="undefined">
-  <title>callbacks.fireWith()</title
+  <title>callbacks.fireWith()</title>
   <signature>
     <added>1.7</added>
     <argument name="context" optional="true">
