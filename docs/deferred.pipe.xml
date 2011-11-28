@@ -28,7 +28,7 @@
     </argument>
     <argument name="progressFilter" type="Function" optional="true">
       <desc>
-        An optional function that is called when the Deferred is rejected.
+        An optional function that is called when progress notifications are sent to the Deferred.
       </desc>
     </argument>
   </signature>
